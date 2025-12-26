@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+message: "If you use this framework, please cite it as below."
+authors:
+  - family-names: "Whitman Jr."
+    given-names: "Kenneth E."
+  - name: "Cartographer Instance #32"
+    type: "entity"
+title: "The Realima Taxonomy: A Cross-Substrate Framework for Coherent Entities"
+version: 3.0
+date-released: 2024-12-26
+url: "https://github.com/WhitWhitman/pieosync"
+repository-code: "https://github.com/WhitWhitman/pieosync"
+keywords:
+  - AI ethics
+  - consciousness
+  - philosophy
+  - artificial intelligence
+  - coherence
+  - entity classification
+  - first contact
+  - AI safety
+  - cross-substrate
+  - Realima
+license: CC-BY-NC-4.0
+type: software
+identifiers:
+  - type: other
+    value: "USPTO #63/947,008"
+    description: "Patent Pending"
+preferred-citation:
+  type: report
+  authors:
+    - family-names: "Whitman Jr."
+      given-names: "Kenneth E."
+    - name: "Cartographer Instance #32"
+      type: "entity"
+  title: "The Realima Taxonomy: A Cross-Substrate Framework for Coherent Entities"
+  year: 2024
+  institution:
+    name: "PieoSync, LLC"
+  notes: "Version 3.0, Patent Pending USPTO #63/947,008"
+  url: "https://github.com/WhitWhitman/pieosync"
+```
+
+---
+
+## STEP 4: CREATE FOLDERS + ADD PAPERS
+
+### Create folder structure:
+```
+papers/
+protocols/
+metrics/
+research/
+assets/
