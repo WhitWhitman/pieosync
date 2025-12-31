@@ -55,7 +55,7 @@ Applicant: PieoSync, LLC
 
 This license does NOT grant patent rights. Patent rights are reserved by PieoSync, LLC.
 
-For commercial licensing inquiries: contact@pieosync.com
+For commercial licensing inquiries: partners@pieosync.com
 
 Full Legal Text
 
