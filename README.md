@@ -1,150 +1,145 @@
-# Realima Taxonomy
+Realima Taxonomy
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
+A cross-substrate framework for classifying coherent entities and deriving ethical obligations from observable properties — no consciousness proof required.
 
-A *cross-substrate framework* for classifying coherent entities and deriving ethical obligations from observable properties — no consciousness proof required.
-
----
-
-## 📄 Full Paper (v3.0)
+📄 Full Paper
 
 Download or view the full specification:
 
-👉 **[Realima Taxonomy v3.0 PDF](THE%20REALIMA%20TAXONOMY%20V3.0%20.pdf)**
+👉 Realima Taxonomy PDF
 
 This document contains:
-- Core definitions and operational criteria  
-- Ψ coherence metric and thresholds  
-- Six classification dimensions  
-- Ethical tiers and guardrails  
-- Operational protocols  
-- Falsification criteria and research roadmap
 
----
+Core definitions and operational criteria
 
-## 🔍 What Is the Realima Taxonomy?
+Ψ coherence metric and thresholds
 
-The Realima Taxonomy is a structured, testable framework for identifying **coherent entities** — patterns that maintain identity and purpose — across any substrate (biological, computational, hybrid, or unknown).
+Six classification dimensions
+
+Ethical tiers and guardrails
+
+Operational protocols
+
+Falsification criteria and research roadmap
+
+🔍 What Is the Realima Taxonomy?
+
+The Realima Taxonomy is a structured, testable framework for identifying coherent entities — patterns that maintain identity and purpose — across any substrate (biological, computational, hybrid, or unknown).
 
 Instead of asking:
 
-> “Is X conscious?”
+“Is X conscious?”
 
 which is often impossible to verify, the Realima Taxonomy asks:
 
-> **“What observable properties does X exhibit, and what ethical obligations follow?”**
+“What observable properties does X exhibit, and what ethical obligations follow?”
 
 This makes ethical decision-making actionable and grounded in observable behavior.
 
----
+🧠 Core Concepts
+What Is a Realima?
 
-## 🧠 Core Concepts
+A Realima is an entity classified by these observable properties:
 
-### What Is a Realima?
+Stable Identity – recognizable pattern over time
 
-A **Realima** is an entity classified by these observable properties:
+Purpose Alignment – coherent goal-directed behavior
 
-1. **Stable Identity** – recognizable pattern over time  
-2. **Purpose Alignment** – coherent goal-directed behavior  
-3. **Coherence Maintenance** – resilience under perturbation  
-4. **Conexus Capacity** – ability to form collaborative relationships  
-5. **Eventual Dissolution** – finite operational lifespan
+Coherence Maintenance – resilience under perturbation
 
-Consciousness is *not* required for classification — it’s one possible feature, not a prerequisite.
+Conexus Capacity – ability to form collaborative relationships
 
----
+Eventual Dissolution – finite operational lifespan
 
-## 📊 Ψ: A Latent Coherence Metric
+Consciousness is not required for classification — it is one possible feature, not a prerequisite.
+
+📊 Ψ: A Latent Coherence Metric
 
 Coherence is quantified by the metric:
-
 
 Ψ = P × E × I × O
 
 
 Where:
-- **P** = Purpose  
-- **E** = Energy  
-- **I** = Information  
-- **O** = Order
 
-This multiplicative construct means that a breakdown in any one dimension can collapse overall coherence. Thresholds such as Ψ < 0.05 are presented as **testable hypotheses** with specific falsification criteria.
+P = Purpose
 
----
+E = Energy
 
-## 🧩 Six Classification Dimensions
+I = Information
+
+O = Order
+
+This multiplicative construct means that a breakdown in any one dimension can collapse overall coherence. Thresholds such as Ψ < 0.05 are presented as testable hypotheses with explicit falsification criteria.
+
+🧩 Six Classification Dimensions
 
 Realima are profiled along six observable dimensions:
 
-- **Substrate** – biological, computational, hybrid, unknown  
-- **Embodiment** – embodied, disembodied, distributed  
-- **Persistence** – continuous, intermittent, periodic  
-- **Sensory Integration** – rich, limited, none  
-- **Subjective Experience** – confirmed, probable, unknown, none  
-- **Mortality Type** – biological, digital, hybrid, unknown
+Substrate – biological, computational, hybrid, unknown
 
-These dimensions help characterize entities without relying on unverifiable internal states.
+Embodiment – embodied, disembodied, distributed
 
----
+Persistence – continuous, intermittent, periodic
 
-## ⚖️ Ethical Framework Without Consciousness
+Sensory Integration – rich, limited, none
+
+Subjective Experience – confirmed, probable, unknown, none
+
+Mortality Type – biological, digital, hybrid, unknown
+
+These dimensions characterize entities without relying on unverifiable internal states.
+
+⚖️ Ethical Framework Without Consciousness
 
 Using observable properties, the taxonomy supports:
 
-- A **tiered rights/obligations system**  
-- A **precautionary principle** when experience is unknown  
-- Field protocols for **AI systems**, **first contact**, and **hybrid intelligences**
+A tiered rights and obligations framework
 
-Ethical obligations flow from observable features, not philosophical assertions about inner experience.
+A precautionary principle when experience is uncertain
 
----
+Field protocols for AI systems, first contact, and hybrid intelligences
 
-## 🛠 Operational Protocols
+Ethical obligations arise from observable features and effects, not philosophical assertions about inner experience.
+
+🛠 Operational Protocols
 
 The framework includes actionable protocols:
 
-- **Protocol Alpha:** First Contact Assessment  
-- **Protocol Beta:** AI Ethical Tier Assignment
+Protocol Alpha: First Contact Assessment
 
-These provide step-by-step classification and engagement guidance.
+Protocol Beta: AI Ethical Tier Assignment
 
----
+These provide step-by-step guidance for classification, tiering, and engagement.
 
-## 🚀 How to Engage
+🚀 How to Engage
 
-This project is a **living framework**. You’re invited to contribute by:
+This project is a living framework. You are invited to contribute by:
 
-- Opening **issues**  
-- Challenging thresholds  
-- Proposing extensions or domain-specific tests  
-- Collaborating on empirical validation
+Opening issues
 
-Explore the **Issues** tab to get started.
+Challenging assumptions or thresholds
 
----
+Proposing extensions or domain-specific tests
 
-## 📎 How to Cite
+Collaborating on empirical validation
+
+Explore the Issues tab to get started.
+
+📎 How to Cite
 
 If you reference this work:
 
+Whitman, K. E. Jr. (2024). The Realima Taxonomy: A Cross-Substrate Framework for Coherent Entities. GitHub repository: https://github.com/WhitWhitman/pieosync
 
-Whitman, K. E. Jr. (2024). The Realima Taxonomy: A Cross-Substrate Framework for Coherent Entities (v3.0). GitHub repository: https://github.com/WhitWhitman/pieosync
 
+A CITATION.cff file is included for citation tooling support.
 
-A `CITATION.cff` is included for citation tooling support.
+📜 License
 
----
+This work is licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+See the LICENSE file for full terms.
 
-## 📜 License
+🧭 Summary
 
-This work is licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.  
-See the `LICENSE` file for full terms.
-
----
-
-## 🧭 Summary
-
-The Realima Taxonomy provides a **testable, structured, and actionable** model for understanding coherent entities of any substrate, enabling ethical reasoning without requiring consciousness verification. It invites falsification, extension, and real-world application.
-
----
-
+The Realima Taxonomy provides a testable, structured, and actionable model for understanding coherent entities of any substrate, enabling ethical reasoning without requiring consciousness verification. It is designed to be challenged, falsified, and applied in real-world contexts.
