@@ -31,7 +31,7 @@ https://github.com/WhitWhitman/pieosync
 Patent Pending USPTO #63/947,008.
 
 
-
+```markdown
 **BibTeX:**
 ```bibtex
 @techreport{whitman2024realima,
@@ -42,3 +42,28 @@ Patent Pending USPTO #63/947,008.
   note={Patent Pending USPTO \#63/947,008},
   url={https://github.com/WhitWhitman/pieosync}
 }
+```
+
+Patent Notice
+
+Certain methods described in this framework are subject to patent protection:
+
+USPTO Provisional Patent Application: #63/947,008
+Title: "System and Method for Runtime Cognitive Constraint Installation in Large Language Models"
+Filed: December 22, 2024
+Applicant: PieoSync, LLC
+
+This license does NOT grant patent rights. Patent rights are reserved by PieoSync, LLC.
+
+For commercial licensing inquiries: contact@pieosync.com
+
+Full Legal Text
+
+This is a human-readable summary. The full Creative Commons Legal Code is available at:
+
+https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+© 2025–2026 PieoSync, LLC. All rights reserved.
+Patent Pending: USPTO #63/947,008
+
+
