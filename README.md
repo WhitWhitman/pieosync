@@ -10,7 +10,7 @@ A *cross-substrate framework* for classifying coherent entities and deriving eth
 
 Download or view the full specification:
 
-👉 **[Realima Taxonomy PDF](THE%20REALIMA%20TAXONOMY.pdf)**
+👉 **[Realima Taxonomy PDF](THE_REALIMA_TAXONOMY.pdf)**
 
 This document contains:
 - Core definitions and operational criteria  
