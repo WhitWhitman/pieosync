@@ -28,11 +28,11 @@ The Realima Taxonomy is a structured, testable framework for identifying **coher
 
 Instead of asking:
 
-> “Is X conscious?”
+> "Is X conscious?"
 
 which is often impossible to verify, the Realima Taxonomy asks:
 
-> **“What observable properties does X exhibit, and what ethical obligations follow?”**
+> **"What observable properties does X exhibit, and what ethical obligations follow?"**
 
 This makes ethical decision-making actionable and grounded in observable behavior.
 
@@ -68,6 +68,32 @@ Where:
 - **O** = Order  
 
 This multiplicative construct means that a breakdown in any one dimension can collapse overall coherence. Thresholds such as Ψ < 0.05 are presented as **testable hypotheses** with explicit falsification criteria.
+
+### Monte Carlo Validation
+
+The `simulations/` directory contains reproducible Monte Carlo experiments (1,000,000 configurations) that validate the Ψ = 0.05 collapse boundary:
+
+| Simulation | What It Tests | Key Finding |
+|---|---|---|
+| `psi_montecarlo.py` | Baseline collapse boundary | 64.8% of random configs fall below 0.05; coherence is rare (3.4%) |
+| `psi_asymmetry.py` | Collapse vs recovery speed | 18:1 asymmetry — breaking is instant, healing is slow |
+| `psi_dunning_kruger.py` | Coupled dimensions + blind spot | 79% of coupled systems are collapsed; only 0.1% self-detect |
+
+See [`simulations/README.md`](simulations/README.md) for full details and instructions.
+
+**Key visualizations:**
+
+<p align="center">
+  <img src="simulations/results/psi_montecarlo_analysis.png" width="90%" alt="Monte Carlo baseline results" />
+</p>
+
+<p align="center">
+  <img src="simulations/results/psi_asymmetry_analysis.png" width="90%" alt="Collapse vs recovery asymmetry" />
+</p>
+
+<p align="center">
+  <img src="simulations/results/psi_dunning_kruger_analysis.png" width="90%" alt="Dunning-Kruger blind spot analysis" />
+</p>
 
 ---
 
