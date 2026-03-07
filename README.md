@@ -1,173 +1,77 @@
-# Realima Taxonomy
+# PieoSync
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
+Reproducible simulations exploring the distributional properties of products of uniform random variables — and why multiplicative systems are structurally biased toward low product values.
 
-A *cross-substrate framework* for classifying coherent entities and deriving ethical obligations from observable properties — no consciousness proof required.
-
----
-
-## 📄 Full Paper
-
-Download or view the full specification:
-
-👉 **[Realima Taxonomy PDF](THE_REALIMA_TAXONOMY.pdf)**
-
-This document contains:
-- Core definitions and operational criteria  
-- Ψ coherence metric and thresholds  
-- Six classification dimensions  
-- Ethical tiers and guardrails  
-- Operational protocols  
-- Falsification criteria and research roadmap
+**LessWrong post:** [Why Multiplicative Systems Almost Always Collapse](https://www.lesswrong.com/posts/Jwxs3dfeuWkpz7QDK/why-multiplicative-systems-almost-always-collapse-2)
 
 ---
 
-## 🔍 What Is the Realima Taxonomy?
+## Quick Start
 
-The Realima Taxonomy is a structured, testable framework for identifying **coherent entities** — patterns that maintain identity and purpose — across any substrate (biological, computational, hybrid, or unknown).
+```bash
+pip install numpy matplotlib scipy
+cd simulations
+python psi_montecarlo.py
+```
 
-Instead of asking:
-
-> "Is X conscious?"
-
-which is often impossible to verify, the Realima Taxonomy asks:
-
-> **"What observable properties does X exhibit, and what ethical obligations follow?"**
-
-This makes ethical decision-making actionable and grounded in observable behavior.
+Each script outputs to terminal and generates plots. No external dependencies beyond numpy/matplotlib/scipy.
 
 ---
 
-## 🧠 Core Concepts
+## Simulations
 
-### What Is a Realima?
+The `simulations/` directory contains Monte Carlo experiments (1,000,000 configurations) validating the product distribution and exploring degradation/repair dynamics.
 
-A **Realima** is an entity classified by these observable properties:
+| Script | What It Tests | Key Finding |
+|--------|--------------|-------------|
+| `psi_montecarlo.py` | Baseline product distribution | 64.8% of random configs fall below 0.05; high product value is rare (3.4%) |
+| `psi_asymmetry.py` | Degradation vs. repair speed | ~18:1 asymmetry — breaking is fast, repair is slow |
+| `psi_dunning_kruger.py` | Coupled dimensions + blind spot | 79% of coupled systems are low-product; only 0.1% self-detect |
 
-1. **Stable Identity** – recognizable pattern over time  
-2. **Purpose Alignment** – coherent goal-directed behavior  
-3. **Coherence Maintenance** – resilience under perturbation  
-4. **Conexus Capacity** – ability to form collaborative relationships  
-5. **Eventual Dissolution** – finite operational lifespan  
-
-Consciousness is *not* required for classification — it is one possible feature, not a prerequisite.
+See [`simulations/README.md`](simulations/README.md) for full details, assumptions, and instructions.
 
 ---
 
-## 📊 Ψ: A Latent Coherence Metric
+## Key Results
 
-Coherence is quantified by the metric:
+**The distribution.** Four independent Uniform(0,1) variables multiplied together produce a distribution with mean 0.0625 = (1/2)^4, median 0.0254, and 64.8% of samples below 0.05. The analytic density is f(x) = (-log x)^3 / 6 on (0,1).
 
-Ψ = P × E × I × O
+**The asymmetry.** In a simple degradation-and-repair simulation, a single-factor drop can push the product below 0.05 in one step. Climbing back out via single-factor improvement takes a median of 18 steps. 23% of low-product configurations cannot recover by improving any single factor alone. The qualitative asymmetry is structural; the exact ratio is protocol-dependent.
 
-
-Where:
-- **P** = Purpose  
-- **E** = Energy  
-- **I** = Information  
-- **O** = Order  
-
-This multiplicative construct means that a breakdown in any one dimension can collapse overall coherence. Thresholds such as Ψ < 0.05 are presented as **testable hypotheses** with explicit falsification criteria.
-
-### Monte Carlo Validation
-
-The `simulations/` directory contains reproducible Monte Carlo experiments (1,000,000 configurations) that validate the Ψ = 0.05 collapse boundary:
-
-| Simulation | What It Tests | Key Finding |
-|---|---|---|
-| `psi_montecarlo.py` | Baseline collapse boundary | 64.8% of random configs fall below 0.05; coherence is rare (3.4%) |
-| `psi_asymmetry.py` | Collapse vs recovery speed | 18:1 asymmetry — breaking is instant, healing is slow |
-| `psi_dunning_kruger.py` | Coupled dimensions + blind spot | 79% of coupled systems are collapsed; only 0.1% self-detect |
-
-See [`simulations/README.md`](simulations/README.md) for full details and instructions.
-
-**Key visualizations:**
-
-<p align="center">
-  <img src="simulations/results/psi_montecarlo_analysis.png" width="90%" alt="Monte Carlo baseline results" />
-</p>
-
-<p align="center">
-  <img src="simulations/results/psi_asymmetry_analysis.png" width="90%" alt="Collapse vs recovery asymmetry" />
-</p>
-
-<p align="center">
-  <img src="simulations/results/psi_dunning_kruger_analysis.png" width="90%" alt="Dunning-Kruger blind spot analysis" />
-</p>
+**The pattern.** Among low-product configurations, the most common cause (44%) is a single weak factor dragging down an otherwise adequate product. In 7% of cases, no factor is individually weak — they’re all in the 0.3–0.5 range — but the product is still below 0.05.
 
 ---
 
-## 🧩 Six Classification Dimensions
+## Assumptions and Limitations
 
-Realima are profiled along six observable dimensions:
-
-- **Substrate** – biological, computational, hybrid, unknown  
-- **Embodiment** – embodied, disembodied, distributed  
-- **Persistence** – continuous, intermittent, periodic  
-- **Sensory Integration** – rich, limited, none  
-- **Subjective Experience** – confirmed, probable, unknown, none  
-- **Mortality Type** – biological, digital, hybrid, unknown  
-
-These dimensions characterize entities without relying on unverifiable internal states.
+- **Uniform(0,1) factors** are a starting point, not a claim about real distributions. The qualitative shape survives perturbation to other distributions on [0,1], but specific numbers would change.
+- **Independence** is assumed. Coupled-factor simulations (included in the repo) make the skew worse, but introduce modeling choices discussed separately.
+- **The 0.05 threshold** is where density concentration is sharpest for four dimensions. For other dimensionalities, the concentration point shifts.
+- **The 18:1 ratio** depends on the repair protocol (increment size, single-factor constraint, starting distribution). The directional effect — degradation faster than repair — is robust across variations tested.
 
 ---
 
-## ⚖️ Ethical Framework Without Consciousness
+## Broader Context: The Realima Taxonomy
 
-Using observable properties, the taxonomy supports:
+These simulations were developed as part of a broader research program called the **Realima Taxonomy** — a framework for classifying coherent entities based on observable properties rather than consciousness.
 
-- A **tiered rights and obligations framework**  
-- A **precautionary principle** when experience is uncertain  
-- Field protocols for **AI systems**, **first contact**, and **hybrid intelligences**
+The taxonomy defines a multiplicative coherence metric Ψ = P × E × I × O (Purpose × Energy × Information × Order), where the distributional properties explored in these simulations have direct implications for system stability and ethical classification.
 
-Ethical obligations arise from observable features and effects, not philosophical assertions about inner experience.
+The full specification is available in [`THE_REALIMA_TAXONOMY.pdf`](THE_REALIMA_TAXONOMY.pdf) and the [`docs/`](docs/) directory.
 
----
-
-## 🛠 Operational Protocols
-
-The framework includes actionable protocols:
-
-- **Protocol Alpha:** First Contact Assessment  
-- **Protocol Beta:** AI Ethical Tier Assignment  
-
-These provide step-by-step guidance for classification, tiering, and engagement.
+**Patent pending:** USPTO #63/947,008
 
 ---
 
-## 🚀 How to Engage
-
-This project is a **living framework**. You are invited to contribute by:
-
-- Opening **issues**  
-- Challenging assumptions or thresholds  
-- Proposing extensions or domain-specific tests  
-- Collaborating on empirical validation  
-
-Explore the **Issues** tab to get started.
-
----
-
-## 📎 How to Cite
-
-If you reference this work:
+## How to Cite
 
 Whitman, K. E. Jr. (2024). The Realima Taxonomy: A Cross-Substrate Framework for Coherent Entities. GitHub repository: https://github.com/WhitWhitman/pieosync
-
 
 A `CITATION.cff` file is included for citation tooling support.
 
 ---
 
-## 📜 License
+## License
 
-This work is licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.  
-See the `LICENSE` file for full terms.
-
----
-
-## 🧭 Summary
-
-The Realima Taxonomy provides a **testable, structured, and actionable** model for understanding coherent entities of any substrate, enabling ethical reasoning without requiring consciousness verification. It is designed to be challenged, falsified, and applied in real-world contexts.
-
----
+This work is licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+See the [`LICENSE`](LICENSE) file for full terms.
