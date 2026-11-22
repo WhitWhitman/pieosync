@@ -1,3 +1,17 @@
+# MINDMAKE X3.0 — beta.2 intake correction
+
+[Download the corrected workspace](https://github.com/WhitWhitman/pieosync/raw/refs/heads/main/downloads/MindMake-X3.0-beta.2.zip).
+
+- The fresh intake asks for a name, then asks about an existing second brain as question 2.
+- Python/MCP setup and the other setup choices come before the first work-goal question.
+- The tool check and any installation still require the user's agreement; setup remains skippable.
+- Existing intake answers keep their original field names and are retained.
+- Verified on an extracted copy: all 20 intake tests passed; boot passed; the next question after the name was `switch_from`, and skipping it continued to `personal_mcp`.
+
+The current beta.2 ZIP is linked from the README and stored in `downloads/`. The beta.1 release page remains available as the earlier version. Its validation record is below; the full suite was not repeated for this intake-order change.
+
+---
+
 ## MINDMAKE X3.0 — first public beta
 
 A second brain your AI operates, with you in control. Built to help people with ADHD, dyslexia, or too many unfinished threads return to their work.

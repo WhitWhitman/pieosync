@@ -10,13 +10,15 @@ MindMake helps your AI keep track of your projects, decisions and next steps in 
 
 ## Download the public beta
 
-[**Download MINDMAKE X3.0**](https://github.com/WhitWhitman/pieosync/releases/download/v3.0.0-beta.1/MindMake-X3.0-beta.1.zip) · [Read the guide](https://github.com/WhitWhitman/pieosync/releases/download/v3.0.0-beta.1/MindMake-X3.0-Guide.pdf) · [Release notes](https://github.com/WhitWhitman/pieosync/releases/tag/v3.0.0-beta.1)
+**Latest download: beta.2 — setup and migration come before the first work question.** The beta.1 release asset keeps the original intake order; use the download below.
+
+[**Download MINDMAKE X3.0**](https://github.com/WhitWhitman/pieosync/raw/refs/heads/main/downloads/MindMake-X3.0-beta.2.zip) · [Read the guide](https://github.com/WhitWhitman/pieosync/releases/download/v3.0.0-beta.1/MindMake-X3.0-Guide.pdf) · [Release notes](https://github.com/WhitWhitman/pieosync/blob/main/RELEASE_NOTES.md)
 
 1. Unzip the download.
 2. Attach the **MindMake** folder in an AI app that can work with local folders.
 3. Say **“Load up.”**
 
-The complete workspace, its source files and the guide are inside the ZIP. Choose the named MindMake ZIP in the release assets; GitHub's automatic “Source code” archives are not the workspace download.
+The complete workspace, its source files and the guide are inside the ZIP. Use the download button above for the current workspace. GitHub's automatic “Source code” archives are not the recommended workspace download.
 
 ## What it helps with
 
