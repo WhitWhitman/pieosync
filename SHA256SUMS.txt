@@ -1,0 +1,2 @@
+0e2b1a7b16b594bf16e8304aaa4d099e0a9a1d50aa2b02490ae67d7dde0498db  MindMake-X3.0-beta.1.zip
+764ba34be1d5278d8f61619392b5723ee6d33b9c7a48415c3b0c31cad20ceac8  MindMake-X3.0-Guide.pdf
